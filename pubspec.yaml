@@ -1,0 +1,52 @@
+name: test
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  font_awesome_flutter: ^10.1.0
+  fluttertoast: ^8.2.6
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  image_picker: ^0.8.7+3
+  cloud_firestore: ^5.2.1
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.10.0
+  shared_preferences: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  url_launcher: ^6.0.17
+  provider: ^6.0.0
+  flutter_secure_storage: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/1.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/images/4.jpg
+    - assets/images/5.png
+    - assets/images/7.png
+    - assets/images/8.jpg
+    - assets/images/9.jpg
+    - assets/images/10.jpg
+    - assets/locations.json
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.jpg"
+  remove_alpha_ios: true
